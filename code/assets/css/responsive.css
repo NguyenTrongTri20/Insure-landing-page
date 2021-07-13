@@ -1,0 +1,149 @@
+@media (min-width: 1024px) and (max-width: 1239px){
+    .section .intro-img{
+        width: 480px;
+    }
+    .intro-right-img{
+        width: 370px;
+    }
+    .intro-left-img{
+        bottom: -122px;
+    }
+}
+@media (min-width: 740px) and (max-width: 1023px){
+    .section .intro-img{
+        width: 312px;
+    }
+    .banner-btn{
+        margin: 30px 0 60px 0;
+    }
+    .intro-left-img{
+        bottom: -66px;
+        width: 120px;
+    }
+    .section .title{
+        font-size: 56px;
+    }
+    .intro-right-img{
+        width: 340px;
+    }
+    .info {
+        margin-top: 180px;
+        margin-bottom: 81px;
+    }
+    .icon{
+        margin-bottom: 0;
+    }
+    .about-content{
+        margin-bottom: 50px;
+    }
+    .how-we-work{
+        margin-top: 100px;
+        margin-bottom: 150px;
+    }
+    .how-we-work-title{
+        font-size: 38px;
+    }
+    .how-we-work .btn{
+        right: 20%;
+    }
+}
+@media (max-width: 740px){
+    .header{
+        padding: 0 3px;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
+        
+    }
+    .section{
+        margin-top: 70px;
+        flex-wrap: wrap-reverse;
+    }
+    .section .intro-img{
+        position: unset;
+        width: 100%;
+    }
+    .intro-info{
+        margin-top: 70px;
+        text-align: center;
+    }
+    .section .intro-info  .title::before{
+        border: none;
+    }
+    .pc{
+        display: none;
+    }
+    .mb{
+        display: block;
+    }
+    .intro-left-img{
+        bottom: -454px;
+        width: 256px;
+    }
+    .intro-right-img{
+        bottom: -936px;
+        width: 150px;
+    }
+    .section.info{
+        margin-top: 180px;
+    }
+    .info  .title.title-info{
+        text-align: center;
+    }
+    .section .title-info::before{
+        left: 50%;
+        transform: translateX(-50%);
+        width: 206px;
+    }
+    .card{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card .icon{
+        width: 90px;
+        height: 90px;
+    }
+    .about-content{
+        margin-bottom: 60px;
+    }
+    .how-we-work{
+        margin-top: 130px;
+    }
+    .how-we-work-title{
+        align-items: flex-start;
+        padding-top: 40px;
+        padding-left: 0;
+        text-align: center;
+        height: unset;
+    }
+    .how-we-work-btn{
+        justify-content: center;
+        
+        margin-top: 15px;
+    }
+    .how-we-work .btn{
+        position: unset;
+        
+    }
+    .footer  .wrap{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 40px;
+        margin-top: 56px;
+    }
+    .contact-info{
+        padding-bottom: 80px;
+    }
+    .contact-info-title,
+    .contact-info-link{
+        text-align: center;
+    }
+    .contact-info .contact-info-title{
+        padding: 40px 0;
+    }
+}

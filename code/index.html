@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <!-- header font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <!--  -->
+    <!-- Body font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+    <!--  -->
+    <!-- icon -->
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/css/all.min.css">
+    <!-- responsive -->
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="main">
+        <header class="header">
+            <div class="grid wide ">
+                <div class="header-wrap">
+                    <div class="logo"></div>
+                    <!-- PC and Tablet -->
+                    <nav class="nav-bar">
+                        <a href="#">HOW WE WORK</a>
+                        <a href="#">BLOG</a>
+                        <a href="#">ACCOUNT</a>
+                        <button class="btn">VIEW PLANS</button>
+                    </nav>
+                    <label for="toggle-nav" class="nav-icon">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <input type="checkbox" hidden id="toggle-nav">
+                    <!-- Mobile -->
+                    <nav class="nav-mobile">
+                        <label for="toggle-nav" class="close-icon">
+                            <i class="fas fa-times"></i>
+                        </label>
+                        <div class="link">
+                            <a href="#">
+                                HOW WE WORK
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a href="#">
+                                BLOG
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a href="#">
+                                ACCOUNT
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="banner" id="banner">
+            <!-- pc and tablet img -->
+            <img src="./assets/images/bg-pattern-intro-right-desktop.svg" class="intro-right-img pc">
+            <img src="./assets/images/bg-pattern-intro-left-desktop.svg" class="intro-left-img pc">
+            <!-- mobile img -->
+            <img src="./assets/images/bg-pattern-intro-right-mobile.svg" class="intro-right-img mb" alt="">
+            <img src="./assets/images/bg-pattern-intro-left-mobile.svg" class="intro-left-img mb" alt="">
+            <div class="grid wide">
+                <div class="row ">
+                    <div class="section">
+                        <div class="col l-6 m-6 c-12">
+                            <div class="intro-info">
+                                <div class="title">
+                                    Humanizing your insurance.
+                                </div>
+                                <div class="content">
+                                    Get your life insurance coverage easier and faster. We blend our expertise 
+                                    and technology to help you find the plan that’s right for you. Ensure you 
+                                    and your loved ones are protected.
+                                </div>
+                                <button class="btn banner-btn">VIEW PLANS</button>
+                            </div>
+                            
+                        </div>
+                        <div class="col l-6 m-6 c-12">
+                            <img class="intro-img" src="./assets/images/image-intro-desktop.jpg" alt="intro">
+                        </div>
+                    </div>
+                </div>    
+            </div>        
+        </div>
+        <div class="grid wide">
+            <!--  -->
+            <div class="row">
+                <div class="section info" style="color: #000;">
+                    <div class="col l-6 c-12">
+                        <div class="title title-info">
+                            We're Different
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+
+            <div class="row">
+                <div class="col l-4 m-12 c-12 ">
+                    <div class="card">
+                        <div class="icon"><i class="fas fa-bolt"></i></div>
+                        <div class="about-title">Snappy Process</div>
+                        <div class="about-content">
+                            Our application process can be completed in minutes, not hours. Don’t get 
+                            stuck filling in tedious forms.
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col l-4 m-12 c-12">
+                    <div class="card">
+                        <div class="icon"><i class="fas fa-dollar-sign"></i></div>
+                        <div class="about-title">Affordable Prices</div>
+                        <div class="about-content">
+                            We don’t want you worrying about high monthly costs. Our prices may be low, 
+                            but we still offer the best coverage possible.
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col l-4 m-12 c-12">
+                    <div class="card">
+                        <div class="icon"><i class="fas fa-user"></i></div>
+                        <div class="about-title">People First</div>
+                        <div class="about-content">
+                            Our plans aren’t full of conditions and clauses to prevent payouts. We make 
+                            sure you’re covered when you need it.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+            <section class="how-we-work">
+                <div class="row">
+                    <div class="col l-6 m-6 c-12">
+                        <div class="how-we-work-title">Find out more about how we work</div>
+                    </div>
+                    
+                    <div class="col l-6 m-6 c-12">
+
+                        <div class="how-we-work-btn">
+                            <button class="btn banner-btn">HOW WE WORK</button>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="grid wide">
+                <!-- Begin social -->
+                <div class="row">
+                    <div class="col l-12 m-12 c-12">
+                        <div class="wrap">
+                            <div class="logo"></div>
+                            <div class="social">
+                                <i class="fab fa-facebook-square"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-pinterest"></i>
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- End social -->
+
+                <!-- Begin contact info -->
+                <div class="contact-info">
+                    <div class="row">
+                        <div class="col l-3 m-3 c-12">
+                            <div class="contact-info-title">OUR COMPANY</div>
+                            <div class="contact-info-link">
+                                <a href="">HOW WE WORK</a>
+                                <a href="">WHY INSURE?</a>
+                                <a href="">VIEW PLANS</a>
+                                <a href="">REVIEWS</a>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-3 c-12">
+                            <div class="contact-info-title">Help me</div>
+                            <div class="contact-info-link">
+                                <a href="">FAQ</a>
+                                <a href="">Terms of use</a>
+                                <a href="">Privacy policy</a>
+                                <a href="">Cookies</a>
+                            </div>
+                        </div>
+                        <div class="col l-3 m-3 c-12">
+                            <div class="contact-info-title">Contact</div>
+                            <div class="contact-info-link">
+                                <a href="">Sales</a>
+                                <a href="">Support</a>
+                                <a href="">Live chat</a>
+                                
+                            </div>
+                        </div>
+                        <div class="col l-3 m-3 c-12">
+                            <div class="contact-info-title">Others</div>
+                            <div class="contact-info-link">
+                                <a href="">Careers</a>
+                                <a href="">Press</a>
+                                <a href="">Licenses</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End contact info -->
+                
+            </div>
+        </footer>
+        </div>
+    
+    
+</body>
+</html>
